@@ -2,3 +2,8 @@ Name: 🌗 Switch RStudio Theme
 Description: Toggle RStudio Server Theme between Dark and Light
 Binding: switch_theme
 Interactive: false
+
+Name: 🌗 Switch Extension
+Description: Switches that add or remove the .R extension
+Binding: switchR
+Interactive: false
