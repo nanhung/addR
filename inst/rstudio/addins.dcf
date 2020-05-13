@@ -1,0 +1,4 @@
+Name: 🌗 Switch RStudio Theme
+Description: Toggle RStudio Server Theme between Dark and Light
+Binding: switch_theme
+Interactive: false
