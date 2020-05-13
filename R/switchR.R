@@ -7,7 +7,7 @@ switchR <- function(){
 
   file <- rstudioapi::getSourceEditorContext()[['path']]
 
-  if(grepl('[.]model', file) | grepl('[.]in', file)) {
+  if(grepl('[.]model$', file) | grepl('[.]in$', file)) {
     ext <- unlist(strsplit(file, "/"))
     n.ext <- length(unlist(strsplit(file, "/")))
     old.name <- paste0(getwd(), "/",paste(ext[3:n.ext], collapse = "/"))
