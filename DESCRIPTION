@@ -1,7 +1,7 @@
 Package: addR
 Title: Customized RStudio Addins
 Version: 0.0.0.9000
-Authors@R: person("Nan-Hung" "Hsieh", email = "d99622005@gmail.com", role = c("aut", "cre"))
+Authors@R: person("Nan-Hung", "Hsieh", email = "d99622005@gmail.com", role = c("aut", "cre"))
 Description: The package that provide some useful addin functions.
 Depends: R (>= 4.0)
 Imports:
