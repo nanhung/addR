@@ -5,6 +5,6 @@
 #' @export
 switch_theme <- function() {
   current_theme <- rstudioapi::getThemeInfo()
-  next_theme <- ifelse(current_theme$dark, "Tomorrow", "Tomorrow Night Blue")
+  next_theme <- ifelse(current_theme$dark, "Katzenmilch", "Tomorrow Night Blue")
   rstudioapi::applyTheme(next_theme)
 }
